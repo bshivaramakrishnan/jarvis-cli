@@ -200,9 +200,9 @@ def diagnostics(verbose):
                         except Exception:
                             pass
                 except Exception as e:
-                    console.print(f"[red]✘ DB connection failed: {e}[/red]")
+                    console.print(f"[red]DB connection failed: {e}[/red]")
 
         except Exception as e:
             console.print(f"[red]✘ DB extended checks failed: {e}[/red]")
 
-    console.print("\n[bold cyan]Diagnostics complete ✅[/bold cyan]")
+    console.print("\n[bold cyan]Diagnostics complete [/bold cyan]")
