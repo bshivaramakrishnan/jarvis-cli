@@ -152,7 +152,7 @@ jarvis commit-helper generate --commit
 jarvis commit-helper generate --all  
 jarvis commit-helper generate --scope cli  
   
-DATABASE EXPLORER Connect:  
+DATABASE EXPLORER  Connect:  
 jarvis db-explorer connect --db sqlite --path ./data.db  
 jarvis db-explorer connect --db postgres --host localhost --port 5432 --user myuser --password mypass --dbname mydb  
 
@@ -185,7 +185,7 @@ Requires username and password Example:
 jarvis file-transfer setup --mode remote --source ./data.txt --destination /home/user/backup --ip 192.168.1.50 --username admin --password secret  
 jarvis file-transfer transfer   
 
-DEVELOPMENT & INSTALLATION NOTES:   
+**DEVELOPMENT & INSTALLATION NOTES:**   
 
 Install locally in development mode:  
 pip install -e .  
