@@ -1,4 +1,4 @@
-Jarvis – Your Development Assistant CLI:
+**Jarvis – Your Development Assistant CLI:**
 
 Jarvis is a cross-platform command-line assistant that bundles essential developer tools into one CLI. It supports Git branch management, system monitoring, file transfers, commit helpers (AI-powered), database exploration, and more.
 This document covers everything:
@@ -9,7 +9,7 @@ Full feature list
 Command reference for each module
 Usage examples
 
-REQUIREMENTS:
+**REQUIREMENTS:**
 
 Jarvis requires Python 3.8+ and has been tested on:
 macOS (Intel & Apple Silicon, zsh/bash shell)
@@ -29,7 +29,7 @@ Windows:
 Download from https://www.python.org/downloads/windows/
 During installation, tick "Add to PATH"
 
-SETUP & INSTALLATION:
+**SETUP & INSTALLATION:**
 
 Clone the Repository:
 git clone https://github.com/bshivaramakrishnan/jarvis-cli.git
@@ -70,7 +70,7 @@ Verify it is set:
 macOS/Linux: echo $OPENAI_API_KEY
 Windows: echo $env:OPENAI_API_KEY
 
-FEATURES:
+**FEATURES:**
 
 Jarvis provides the following modules:
 
@@ -109,7 +109,7 @@ Diagnostics
 Run checks for all modules
 Extended mode verifies configs and connectivity
 
-CLI COMMANDS & USAGE:
+**CLI COMMANDS & USAGE:**
 
 GENERAL:
 jarvis hello
