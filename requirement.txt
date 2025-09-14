@@ -1,3 +1,33 @@
-click
-rich
-psutil
+# Core CLI
+click==8.1.7
+rich==13.8.0
+
+# System Monitoring & Process Management
+psutil==6.0.0
+
+# File Transfer
+paramiko==3.5.0
+smbprotocol==1.13.0
+
+# AI Commit Helper
+openai==1.107.2
+tqdm==4.67.1
+
+# Database Support
+psycopg2-binary==2.9.9
+
+# Compatibility & Utilities
+typing-extensions==4.15.0
+typing-inspection==0.4.1
+annotated-types==0.7.0
+pydantic==2.11.9
+pydantic-core==2.33.2
+httpx==0.28.1
+httpcore==1.0.9
+anyio==4.10.0
+certifi==2025.8.3
+idna==3.10
+sniffio==1.3.1
+h11==0.16.0
+distro==1.9.0
+jiter==0.10.0
