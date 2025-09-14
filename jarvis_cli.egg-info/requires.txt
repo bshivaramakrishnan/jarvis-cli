@@ -1,0 +1,7 @@
+click
+rich
+psutil
+paramiko
+smbprotocol
+openai
+psycopg2-binary

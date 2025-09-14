@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jarvis-cli"
+version = "0.1.0"
+description = "Jarvis – Your Development Assistant CLI"
+authors = [
+    { name="Shivaramakrishnan B" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "click",
+    "rich",
+    "psutil",
+    "paramiko",
+    "smbprotocol",
+    "openai",
+    "psycopg2-binary"
+]
+
+[project.scripts]
+jarvis = "jarvis.cli:cli"

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: jarvis-cli
+Version: 0.1.0
+Summary: Jarvis – Your Development Assistant CLI
+Author: Shivaramakrishnan B
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: rich
+Requires-Dist: psutil
+Requires-Dist: paramiko
+Requires-Dist: smbprotocol
+Requires-Dist: openai
+Requires-Dist: psycopg2-binary
